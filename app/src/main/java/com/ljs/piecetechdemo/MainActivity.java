@@ -1,7 +1,9 @@
 package com.ljs.piecetechdemo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,4 +12,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void myWidget(View v) {
+        startActivity(new Intent(this, MyWidgetActivity.class));
+    }
+
+    public void myVideo(View v) {
+        startActivity(new Intent(this, MyVideoActivity.class));
+    }
+
 }

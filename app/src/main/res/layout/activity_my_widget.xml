@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.ljs.piecetechdemo.widget.CustomView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isEnabled="true"
+        app:titleText="7592"
+        app:titleTextColor="#fff"
+        app:titleTextSize="55sp"
+        app:type="first" />
+
+    <com.ljs.piecetechdemo.widget.CusImgView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:img="@mipmap/sound"
+        app:imgScaleType="center"
+        app:text="123456789132465749678"
+        app:textColor="#f00"
+        app:textSize="22sp" />
+
+    <com.ljs.piecetechdemo.widget.AnnularView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:anWidth="5dp"
+        app:firstColor="#f00"
+        app:secondColor="#0f0"
+        app:speed="10" />
+
+    <com.ljs.piecetechdemo.widget.SoundView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:bg="@mipmap/sound"
+        app:circleWidth="10dp"
+        app:darkColor="#333"
+        app:dotCount="8"
+        app:lightColor="#999"
+        app:splitSize="5dp" />
+
+</LinearLayout>
