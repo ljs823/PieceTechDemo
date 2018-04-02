@@ -77,9 +77,6 @@ public class CusImgView extends View {
                     mTextColor = typedArray.getColor(i, Color.BLACK);
                     break;
                 case R.styleable.CusImgView_img:
-                    Resources resources = getResources();
-                    int index = typedArray.getIndex(i);
-                    int resourceId = typedArray.getResourceId(index, 0);
                     mImg = BitmapFactory.decodeResource(getResources(), typedArray
                             .getResourceId(typedArray.getIndex(i), 0));
                     break;
